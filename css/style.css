@@ -13970,7 +13970,7 @@ p.slider-teaser{
 .subtitle{
   position: relative;
   display: inline-block;
-  font-size: 13px;
+  font-size: 20px;
   font-family: var(--body-font);
   color:var(--title-font-color);
   background: none;
@@ -21487,8 +21487,9 @@ border-radius:20px 0 0 20px;
 
 .homeBanner{
   background-image:  url(/images/my_Imgs/test_banner.jpg);
-  background-position: center center;
+  background-position: center right;
   min-height: 100vh;
+  background-size: contain !important;
   
 }
 
@@ -21528,7 +21529,7 @@ border-radius:20px 0 0 20px;
   background: #fdfbf9;
   padding: 80px 20px;
   text-align: center;
-  font-family: 'Didot', serif;
+  /* font-family: 'Didot', serif; */
   position: relative;
   overflow: hidden;
   display: flex;
@@ -21687,3 +21688,29 @@ border-radius:20px 0 0 20px;
   color: #fff;  /* ya apna theme color */
 }
 
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.insta-item {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+
+.insta-imgs{
+ 
+
+  height: 170px;
+  width: 100%;
+}
+
+.insta-imgs img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center ;
+}
