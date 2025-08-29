@@ -21489,7 +21489,7 @@ border-radius:20px 0 0 20px;
   background-image:  url(/images/my_Imgs/test_banner.jpg);
   background-position: center right;
   min-height: 100vh;
-  background-size: contain !important;
+  /* background-size: contain; */
   
 }
 
