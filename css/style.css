@@ -821,7 +821,7 @@ header .header-col.mid .social-icons {
 /* ================================================== */
 
 #mainmenu {
-  font-size: 14px;
+  font-size: 12px;
   margin: 0 auto;
   padding: 0;
   float: none;
@@ -864,7 +864,7 @@ header .header-col.mid .social-icons {
 }
 
 #mainmenu>li {
-  margin-right: 30px;
+  margin-right: 15px;
 }
 
 header.header-s2 #mainmenu>li {
@@ -13541,6 +13541,8 @@ input.text-center{
 
 .col-end{
   justify-content: end;
+  flex-grow: .9;
+  flex-basis: 0;
 }
 
 .col-center {
